@@ -1,13 +1,11 @@
 public class Math {
-    int x ;
-    int y;
-    int z;
 
-    public Math(int x, int y) {
-        this.x = x;
-        this.y = y;
-    }
-    public  void  add()  {
+
+
+    public  static void  add()  {
+          int x =10;
+         int y=5;
+          int z;
         z= x+y;
        System.out.println(z);
     }
